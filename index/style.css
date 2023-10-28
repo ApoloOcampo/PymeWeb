@@ -1,0 +1,18 @@
+/* GENERAL */
+body{
+    background-image: url(/index/imagenes/5521125.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*FIN DE GENERAL*/
+
+/* INDEX */
+.carousel-item{
+    height: 500px;
+    overflow: hidden;
+}
+/*FIN DE INDEX*/
+
+
+
