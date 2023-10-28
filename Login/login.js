@@ -4,7 +4,7 @@ function validacion(){
     let pass=document.getElementById("password").value;
     if(user == "admin" && pass == "1234"){
         alert("Usuario correcto")
-        window.location="index2.html";
+        window.location="index.html";
         return false;
     }
    if(user == "" || pass =="") {

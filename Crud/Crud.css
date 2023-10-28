@@ -1,0 +1,34 @@
+/*LOGIN*/
+.body-login {
+    margin-top: 50px ;
+    background-color: rgba(0, 0, 0, 0.782);
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 700px;
+    border-radius: 3%;
+    
+   }
+   div.form-floating{
+       top: 30px;
+       margin-top: 10px;
+       width: 50%;
+       margin-left: 25%;
+       margin-left: 25%;
+   }
+   div.form-floating:hover{
+       transform: translateY(-2px);
+   }
+   div.body-text
+   {
+       top: 50%;
+       color: white;
+       text-align: center;
+   }
+   div.d-grid.gap-2.col-6.mx-auto {
+       margin-top: 100px ;
+   }
+   div.d-grid.gap-2.col-6.mx-auto:hover{ 
+       transform: translateY(-2px);
+   }
+   /* FIN LOGIN*/
