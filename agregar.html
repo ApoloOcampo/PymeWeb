@@ -61,9 +61,13 @@
         <label for="floatingInput">Nombre del producto</label>
     </div>
     <div class="form-floating">
-        <input type="text" class="form-control " placeholder="tipo" id="inputTipo">
-        <label for="floatingInput">Tipo</label>
-    </div>
+      <label for="inputTipo" class="form-label"></label>
+      <select id="inputTipo" class="form-select">
+        <option selected>Tipo</option>
+        <option>Con alcohol</option>
+        <option>Sin alcohol</option>
+      </select>
+     </div>
     <div class="form-floating">
         <input type="text" class="form-control " placeholder="marca" id="inputMarca">
         <label for="floatingInput">Marca</label>
@@ -81,12 +85,16 @@
         <label for="floatingInput">Stock</label>
     </div>
     <div class="form-floating">
-        <input type="text" class="form-control " placeholder="volumen" id="inputVolumen">
+        <input type="number" class="form-control " placeholder="volumen" id="inputVolumen">
         <label for="floatingInput">volumen(ml)</label>
     </div>
-    <div class="d-grid gap-2 col-6 mx-auto">
+    <div class="form-floating">
+      <input type="text" class="form-control " placeholder="descripcion" id="inputImagen">
+      <label for="floatingInput">Link de la Imagen</label>
+  </div>
+    <div class="form-floating">
         <button class="btn btn-primary" type="button" id="agregarProducto">Agregar</button>
-      </div>
+    </div>
 </div>
 
 
@@ -122,5 +130,6 @@
   <script src="js/comunes.js" ></script>
   <script src="js/js/producto.js"></script>
 <!-- FIN SCRIPT -->
+
 
 </html>

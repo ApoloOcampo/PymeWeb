@@ -23,6 +23,7 @@
                 <td>${value.precio}</td>
                 <td>${value.stock}</td>
                 <td>${value.volumen}</td>
+                <td>${value.imagen}</td>
             </tr>`)
         })
       }
@@ -48,6 +49,7 @@
     var Precio = $("#inputPrecio").val();
     var Stock = $("#inputStock").val();
     var Volumen = $("#inputVolumen").val();
+    var Imagen = $("#inputImagen").val();
   
     var productoData = {
       Nombre: Nombre,
@@ -56,7 +58,8 @@
       Descripcion: Descripcion,
       Precio: Precio,
       Stock: Stock,
-      Volumen: Volumen
+      Volumen: Volumen,
+      Imagen: Imagen
     };
   
     $.ajax({
