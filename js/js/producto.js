@@ -16,7 +16,7 @@
             `<tr>
                 <th scope="row">${ultimoId()}</th>
                 <td> ${value.nombre == null ? "" : value.nombre} 
-                                <input type="hidden" name="id_rol" value="${value.Id_producto}">
+                                <input type="hidden" name="id_rol" value="${value.id_producto}">
                 <td>${value.tipo}</td>
                 <td>${value.marca}</td>
                 <td>${value.descripcion}</td>
@@ -265,7 +265,7 @@ ultimoId = () =>{
 
 //actualizar
   function actualizarTabla() {
-    // $('#tablaProductos tbody').empty();
+    $('#tablaProductos tbody').empty();
     getProductos();
   };
 
