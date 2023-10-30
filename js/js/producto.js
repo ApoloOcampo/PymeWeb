@@ -50,7 +50,7 @@
     var Stock = $("#inputStock").val();
     var Volumen = $("#inputVolumen").val();
     var Imagen = $("#inputImagen").val();
-  
+
     var productoData = {
       Nombre: Nombre,
       Tipo: Tipo,
@@ -61,6 +61,7 @@
       Volumen: Volumen,
       Imagen: Imagen
     };
+    limpiarFormulario();
   
     $.ajax({
       url: `${API_URL}/producto`,
@@ -278,4 +279,5 @@ ultimoId = () =>{
     $("#inputPrecio").val('');
     $("#inputStock").val('');
     $("#inputVolumen").val('');
+    $("#inputImagen").val('');
   };
